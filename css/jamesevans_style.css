@@ -3,7 +3,7 @@
 body {
     margin: 8px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 210mm;
+    width: 100%;
 }
 
 /* header styles */
@@ -113,11 +113,8 @@ img {
 }
 
 /* action */
-#idcard:hover {
-    border: 1px solid lightcoral;
-    box-shadow: none;
-}
-#idcard:active {
+
+#idcard:active, #idcard:focus {
     scale: 1.6;
     transform-origin: top left;
 }
