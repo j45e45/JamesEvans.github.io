@@ -1,13 +1,14 @@
 /* jamesevans_style.css */
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
 }
 
 /* header styles */
 h1 {
     font-size: 32px;
+    line-height: 1.2;
 }
 
 ol {
