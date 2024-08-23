@@ -45,7 +45,7 @@ li {
     border-top: 2px solid black;
     border-bottom: 1px solid black;
     border-left: 2px solid black;
-    padding: 24px;
+    padding: 12px;
     height: 51mm *2;
     margin-bottom: 8px;
 }
@@ -73,7 +73,7 @@ li {
     border-bottom: 1px solid black;
     margin-bottom: 8px;
     margin-right: 0px;
-    padding: 24px;
+    padding: 12px;
     padding-right: 12px;
     right: 0px;
     left: 0px;
