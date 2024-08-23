@@ -40,12 +40,12 @@ li {
 }
 
 #idcard {
-    background-color: slategray;
+    background-color: lightslategray;
     border-top-left-radius: 24px;
     border-top: 2px solid black;
+    border-bottom: 1px solid black;
     border-left: 2px solid black;
     padding: 24px;
-    width: 89mm *2;
     height: 51mm *2;
     margin-bottom: 8px;
 }
@@ -55,8 +55,7 @@ li {
     box-shadow: 2px 2px black;
     border-top-left-radius: 12px;
     object-fit: fill;
-    height: 120px;
-    width: 120px;
+    height: 140px;
     right: 0;
     float: right;
 }
@@ -70,6 +69,8 @@ li {
 #front_panel_01 {
     background-color: lightslategray;
     border-left: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     margin-bottom: 8px;
     margin-right: 0px;
     padding: 24px;
@@ -89,7 +90,6 @@ li {
 
 #front_panel_03 {
     border-top: 2px solid black;
-    padding: 4px;
     margin-top: 8px;
     right: 0px;
     left: 0px;
