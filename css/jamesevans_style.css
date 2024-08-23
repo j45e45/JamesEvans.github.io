@@ -1,16 +1,15 @@
 /* jamesevans_style.css */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: serif;
     line-height: 1.6;
 }
 
 /* header styles */
 h1 {
-    color: white;
     font-size: 32px;
     line-height: 1.2;
-    text-shadow: 2px 2px black;
+    margin-left: 32px;
 }
 
 ol {
@@ -42,14 +41,15 @@ li {
 }
 
 #idcard {
-    background-color: lightslategray;
+    background-color: white;
     border-top-left-radius: 24px;
     border-top: 2px solid black;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     border-left: 2px solid black;
     padding: 12px;
     height: 51mm *2;
     margin-bottom: 8px;
+    box-shadow: 4px 4px black;
 }
 
 .container img {
@@ -69,7 +69,7 @@ li {
 }
 
 #front_panel_01 {
-    background-color: lightslategray;
+    background-color: white;
     border-left: 2px solid black;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -79,6 +79,7 @@ li {
     padding-right: 12px;
     right: 0px;
     left: 0px;
+    box-shadow: 4px 4px black;
 }
 
 #front_panel_02 {
@@ -110,8 +111,3 @@ li {
 
 
 /* action */
-
-#idcard:active, #idcard:focus {
-    scale: 1.6;
-    transform-origin: top left;
-}
