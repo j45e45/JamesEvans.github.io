@@ -1,7 +1,12 @@
 /* jamesevans_style.css */
 
+@font-face {
+    font-family: roboto-slab;
+    src: url("fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
 body {
-    font-family: serif;
+    font-family: roboto-slab;
     line-height: 1.6;
 }
 
@@ -44,12 +49,12 @@ li {
     background-color: white;
     border-top-left-radius: 24px;
     border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     border-left: 2px solid black;
     padding: 12px;
     height: 51mm *2;
     margin-bottom: 8px;
-    box-shadow: 4px 4px black;
+    box-shadow: 4px 4px slategray;
 }
 
 .container img {
@@ -79,7 +84,7 @@ li {
     padding-right: 12px;
     right: 0px;
     left: 0px;
-    box-shadow: 4px 4px black;
+    box-shadow: 4px 4px slategray;
 }
 
 #front_panel_02 {
