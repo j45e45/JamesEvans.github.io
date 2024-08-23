@@ -1,7 +1,6 @@
 /* jamesevans_style.css */
 
 body {
-    margin: 8px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
 }
@@ -26,7 +25,7 @@ li {
 }
 
 #page_grid {
-    grid-template-columns: 75% 25%;
+    grid-template-columns: auto;
 }
 
 #title_grid {
@@ -47,7 +46,6 @@ li {
     width: 89mm *2;
     height: 51mm *2;
     margin-bottom: 8px;
-    margin-right: 8px;
     box-shadow: 2px 2px black;
 }
 
