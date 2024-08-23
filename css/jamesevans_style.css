@@ -7,8 +7,10 @@ body {
 
 /* header styles */
 h1 {
+    color: white;
     font-size: 32px;
     line-height: 1.2;
+    text-shadow: 2px 2px black;
 }
 
 ol {
