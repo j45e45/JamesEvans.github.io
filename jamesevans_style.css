@@ -3,13 +3,20 @@
 body {
     margin: 8px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 420mm;
+    width: 210mm;
 }
 
 /* header styles */
 h1 {
-    font-size: 60px;
-    margin-left: 20px;
+    font-size: 32px;
+}
+
+ol {
+    padding-left: 2px;
+}
+
+li {
+    padding-left: 2px;
 }
 
 /*grid layout types*/
@@ -33,6 +40,7 @@ h1 {
 }
 
 #idcard {
+    background-color: linen;
     border: 1px solid black;
     border-radius: 8px;
     padding: 20px;
@@ -47,8 +55,8 @@ h1 {
     border: 1px solid black;
     border-radius: 8px;
     object-fit: fill;
-    height: 220px;
-    width: 220px;
+    height: 120px;
+    width: 120px;
     right: 0;
     float: right;
 }
@@ -75,11 +83,9 @@ h1 {
 }
 
 #front_panel_02 {
-    background-color: lightsalmon;
-    border: 2px solid black;
-    border-radius: 8px;
-    box-shadow: 0px 2px black;
+    border-top: 1px solid black;
     margin-bottom: 6px;
+    margin-right: 8px;
     padding: 16px;
     right: 0px;
     left: 0px;
@@ -104,4 +110,14 @@ h1 {
 
 img {
     background-image: url(C:\Users\james\OneDrive\Documents\CVPage\profile_pic.jpg);
+}
+
+/* action */
+#idcard:hover {
+    border: 1px solid lightcoral;
+    box-shadow: none;
+}
+#idcard:active {
+    scale: 1.6;
+    transform-origin: top left;
 }
