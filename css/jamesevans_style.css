@@ -39,14 +39,11 @@ li {
 }
 
 #idcard {
-    background-color: linen;
-    border: 1px solid black;
-    border-radius: 8px;
+    background-color: white;
     padding: 20px;
     width: 89mm *2;
     height: 51mm *2;
     margin-bottom: 8px;
-    box-shadow: 2px 2px black;
 }
 
 .container img {
@@ -68,10 +65,7 @@ li {
 }
 
 #front_panel_01 {
-    background-color: linen;
-    border: 2px solid black;
-    border-radius: 8px;
-    box-shadow: 0px 4px black;
+    background-color: white;
     margin-bottom: 8px;
     margin-right: 0px;
     padding: 8px;
